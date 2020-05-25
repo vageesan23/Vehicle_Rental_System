@@ -1,0 +1,11 @@
+[{"numberPlate":"HG8523","vehicleMake":"Honda","vehicleModel":"Vezel","year":2018,"doorCount":4,"conditionOf_AC":false,"automatic":false},
+{"numberPlate":"LK8787","vehicleMake":"Toyota","vehicleModel":"Axio","year":2017,"doorCount":4,"conditionOf_AC":false,"automatic":true},
+{"numberPlate":"GK8451","vehicleMake":"Honda","vehicleModel":"Civic","year":2018,"doorCount":4,"conditionOf_AC":false,"automatic":true},
+{"numberPlate":"DF6464","vehicleMake":"Suzuki-Maruthi","vehicleModel":"Suzuki-Alto","year":2014,"doorCount":4,"conditionOf_AC":false,"automatic":true},
+{"numberPlate":"RT7894","vehicleMake":"Mitshubishi","vehicleModel":"Montero","year":2019,"doorCount":6,"conditionOf_AC":false,"automatic":false},
+{"numberPlate":"HG9512","vehicleMake":"Nissan","vehicleModel":"N17","year":2015,"doorCount":4,"conditionOf_AC":false,"automatic":false}]
+[{"numberPlate":"JH6545","vehicleMake":"Bullet","vehicleModel":"Bullet-390","year":2018,"gearCount":4,"haveCarrier":true},
+{"numberPlate":"RE4542","vehicleMake":"Royl-Enfield","vehicleModel":"Bullet-350","year":2018,"gearCount":5,"haveCarrier":true},
+{"numberPlate":"GF8457","vehicleMake":"Yamaha","vehicleModel":"R15","year":2019,"gearCount":5,"haveCarrier":true},
+{"numberPlate":"YH8523","vehicleMake":"Pulsar","vehicleModel":"NS200","year":2018,"gearCount":5,"haveCarrier":false},
+{"numberPlate":"IU6545","vehicleMake":"Yamaha","vehicleModel":"FZ_S","year":2017,"gearCount":5,"haveCarrier":true}] Vehicle:Car Make:Mitshuubushi Model:Vezel Year:2018 Capacity:Capacity{capacityOfSeat='4', capacityOfEngine='1500cc'} PlateNo:RE7845 Schedule:Schedule{date=Date{year=2019, month=2, day=28}}

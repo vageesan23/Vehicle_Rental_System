@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="MongoDBConnector">
+    <ANNOTATIONS>
+      <root url="file://C:/MongoDBConnector" />
+      <root url="file://C:/OriginalConnector" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://C:/MongoDBConnector" />
+      <root url="file://C:/OriginalConnector" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://C:/MongoDBConnector" />
+      <root url="file://C:/OriginalConnector" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://C:/MongoDBConnector" />
+      <root url="file://C:/OriginalConnector" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://C:/MongoDBConnector" />
+      <root url="file://C:/OriginalConnector" />
+    </SOURCES>
+    <jarDirectory url="file://C:/MongoDBConnector" recursive="false" />
+    <jarDirectory url="file://C:/OriginalConnector" recursive="false" />
+    <jarDirectory url="file://C:/MongoDBConnector" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://C:/OriginalConnector" recursive="false" type="SOURCES" />
+  </library>
+</component>
