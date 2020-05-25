@@ -1,0 +1,65 @@
+<div class="main-block">
+  <div class="left-part">
+    
+    <h1>Cars</h1>
+<div style="text-align: center;">
+<table border="1">
+    <thead></thead>
+    <tr>
+      <th>Number Plate</th>
+      <th>Car Make</th>
+      <th>Car Model</th>
+      <th>Year</th>
+      <th>Door Count</th>
+      <th>Automatic</th>
+      <th>Have AC</th>
+    </tr>
+  
+    <tbody>
+        <tr *ngFor="let car of allTheCars"> 
+            <td>{{car.numberPlate}}</td>
+            <td>{{car.vehicleMake}}</td>
+            <td>{{car.vehicleModel}}</td>
+            <td>{{car.year}}</td>
+            <td>{{car.doorCount}}</td>
+            <td>{{car.automatic}}</td>
+            <td>{{car.conditionOf_AC}}</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+<h1>Motor Bikes</h1>
+<div style="text-align: center;">
+<table border="1">
+    <thead></thead>
+    <tr>
+      <th> Number Plate </th>
+      <th> Bike Make </th>
+      <th> Bike Model </th>
+      <th> Year </th>
+      <th> Gear Count </th>
+      <th> Have Carrier</th>
+    </tr>
+  
+    <tbody>
+        <tr *ngFor="let bike of allTheMotorbike">
+            <td>{{bike.numberPlate}}</td>
+            <td>{{bike.vehicleMake}}</td>
+            <td>{{bike.vehicleModel}}</td>
+            <td>{{bike.year}}</td>
+            <td>{{bike.gearCount}}</td>
+            <td>{{bike.haveCarrier}}</td>
+          </tr>
+    </tbody>
+  </table>
+</div>
+  
+  </div>         
+          <div class="title">
+          </div>
+
+
+

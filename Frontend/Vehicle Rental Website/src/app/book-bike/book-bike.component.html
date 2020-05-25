@@ -1,0 +1,73 @@
+<div class="main-block">
+  
+    <div class="left-part">
+      
+      <br/><h1>Riders Only!!</h1>
+    </div>
+    
+
+    <form> 
+            <div class="title">
+              <i class="fas fa-pencil-alt"></i> 
+              <h2>Book here</h2>
+            </div>
+
+            <div class="info">
+      
+                    <div>                 
+                        <br><label for='full name'>Full Name</label><br> 
+                        <input type="text" required  [(ngModel)]="fullName" name="full name">
+                    </div>
+
+                    <div>                 
+                            <label for='nic'>NIC Number</label><br>
+                            <input type="text" required name="nic" [(ngModel)]="NIC"> 
+                        </div>
+
+                        <div> 
+                                <label for='contact-no'>Contact No</label><br>
+                                <input type="text" required name="contact-no" [(ngModel)]="ContactNo"> 
+                            </div>  
+                            
+                                <div> 
+                                        <label for='email'>Email Address</label><br>
+                                        <input type="text" [(ngModel)]="EmailAddress" required name="email"> 
+                                    </div>   
+
+                                    <div> 
+                                            <label for='numberplate'>Number Plate</label><br>
+                                            <input type="text" required [(ngModel)]="NumberPlate" name="numberplate"> 
+                                        </div> 
+
+                            <div>
+                                    <label for='date'>Pick Up Date</label><br>
+                                    <input type="date"  [(ngModel)]="pickUpDate" required name="date">
+                            </div>
+
+                            <div>
+                                    <label for='date'>Drop Date</label><br>
+                                    <input type="date"  [(ngModel)]="dropDate" required name="date">
+                            </div>
+
+                            <div>                    
+                                    <label for='bike-make'>Bike Make</label><br>  
+                                    <select name="bike-make" [(ngModel)]="bikeMake">
+                                        <option value=" "> </option>
+                                        <option *ngFor="let bike of allTheMotorbike"> {{bike.vehicleMake}}</option>                             
+                                    </select>    
+                            
+                            </div>
+
+                            <div>                    
+                                    <label for='bike-model'>Bike Model</label><br>  
+                                    <select name="bike-model" [(ngModel)]="bikeModel">
+                                        <option value=" "> </option> 
+                                        <option [ngValue]  = "bike" *ngFor="let bike of allTheMotorbike" > {{bike.vehicleModel}}</option>                               
+                                    </select>    
+                            
+                            </div>
+
+                            <button type="button"  name="addDevice" (click)="onsubmit()" >Submit</button>
+                                <button type="reset"  href="/">Clear Form</button>
+
+                            </div>
